@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [13/Sep/2020:23:12:46 +0900] "GET /jspbook/ch02/helloworld.jsp HTTP/1.1" 404 827
+0:0:0:0:0:0:0:1 - - [13/Sep/2020:23:12:56 +0900] "GET /jspbook/helloServlet HTTP/1.1" 404 831
+0:0:0:0:0:0:0:1 - - [13/Sep/2020:23:17:01 +0900] "GET /jspbook/helloServlet HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [13/Sep/2020:23:17:01 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [13/Sep/2020:23:20:21 +0900] "GET /jspbook/helloServlet HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [13/Sep/2020:23:20:22 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [13/Sep/2020:23:20:25 +0900] "GET /jspbook/helloServlet HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [13/Sep/2020:23:20:25 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
