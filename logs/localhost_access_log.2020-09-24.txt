@@ -67,3 +67,11 @@
 0:0:0:0:0:0:0:1 - - [24/Sep/2020:22:01:35 +0900] "POST /jspbook/ch07/upload.jsp HTTP/1.1" 200 87
 0:0:0:0:0:0:0:1 - - [24/Sep/2020:22:02:03 +0900] "POST /jspbook/ch07/upload.jsp HTTP/1.1" 200 3516394
 5.202.41.70 - - [24/Sep/2020:22:02:29 +0900] "GET / HTTP/1.1" 200 11415
+0:0:0:0:0:0:0:1 - - [24/Sep/2020:22:17:56 +0900] "GET /jspbook/ch07/fileup.html HTTP/1.1" 200 442
+0:0:0:0:0:0:0:1 - - [24/Sep/2020:22:18:19 +0900] "POST /jspbook/ch07/up.jsp HTTP/1.1" 500 2153
+0:0:0:0:0:0:0:1 - - [24/Sep/2020:22:21:42 +0900] "POST /jspbook/ch07/up.jsp HTTP/1.1" 500 2153
+0:0:0:0:0:0:0:1 - - [24/Sep/2020:22:22:20 +0900] "POST /jspbook/ch07/up.jsp HTTP/1.1" 200 128
+0:0:0:0:0:0:0:1 - - [24/Sep/2020:22:22:20 +0900] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [24/Sep/2020:22:27:32 +0900] "GET /jspbook/ch07/selectform.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Sep/2020:22:27:34 +0900] "GET /jspbook/ch07/selectform.jsp?edu=%EC%9E%AC%ED%95%99%EC%83%9D&na=Korea&like=%ED%94%84%EB%A1%9C%EB%93%80%EC%84%9C&like=%EC%BB%A8%EC%84%A4%ED%8C%85&submitbtn=%EC%A0%84%EC%86%A1 HTTP/1.1" 200 250
+185.216.140.186 - - [24/Sep/2020:22:28:26 +0900] "GET /cache/global/img/gs.gif HTTP/1.1" 404 842
