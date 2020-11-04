@@ -5,7 +5,7 @@
 
 <html>
     <head>
-        <title>Textform 처리</title>
+        <title>7장 과제 2번 연습문제 10번</title>
     </head>
 
     <body>

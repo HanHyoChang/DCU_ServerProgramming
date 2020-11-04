@@ -47,4 +47,34 @@
 		<param-value>1.0</param-value>
 	</context-param>
 
+     <!-- Chapter11 회원 Parameter -->
+    <context-param>
+        <param-name>MasterID</param-name>
+        <param-value>jspbook</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>MasterPassword</param-name>
+        <param-value>112233</param-value>
+    </context-param>
+    
+    
+    <error-page>
+        <error-code>404</error-code>
+        <location>/ch10/error/404errorHandler.jsp</location>
+    </error-page>
+    
+    <error-page>
+        <error-code>500</error-code>
+        <location>/ch10/error/500errorHandler.jsp</location>
+    </error-page>
+
+    <error-page>
+        <exception-type>java.lang.NullPointerException</exception-type>
+        <location>/ch10/error/nullPointerErrorHandler.jsp</location>
+    </error-page>
+    
+    <!-- Chapter10 404, 500 error페이지 삽입부 -->
+    
+
 </web-app>

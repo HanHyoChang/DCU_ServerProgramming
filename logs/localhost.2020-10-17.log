@@ -1,0 +1,2384 @@
+17-Oct-2020 14:51:14.124 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Oct-2020 14:51:14.124 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Oct-2020 14:51:14.126 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@72f46e16')
+17-Oct-2020 14:59:57.661 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Oct-2020 14:59:57.662 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Oct-2020 14:59:57.664 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@332a7fce')
+17-Oct-2020 15:05:32.918 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	org.apache.jasper.JasperException: /ch09/forward/to.jsp (행: [1], 열: [2]) [Page directive]은(는) 유효하지 않은 속성을 가지고 있습니다: [contentTpye]
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+		at org.apache.jasper.compiler.JspUtil.checkAttributes(JspUtil.java:208)
+		at org.apache.jasper.compiler.Validator$DirectiveVisitor.visit(Validator.java:113)
+		at org.apache.jasper.compiler.Node$PageDirective.accept(Node.java:579)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2441)
+		at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2447)
+		at org.apache.jasper.compiler.Node$Root.accept(Node.java:470)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Validator.validateDirectives(Validator.java:1817)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:203)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:386)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+		at org.apache.jasper.runtime.PageContextImpl.forward(PageContextImpl.java:530)
+		at org.apache.jsp.ch09.from_jsp._jspService(from_jsp.java:124)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 15:05:32.919 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [/ch09/forward/to.jsp (행: [1], 열: [2]) [Page directive]은(는) 유효하지 않은 속성을 가지고 있습니다: [contentTpye]]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: /ch09/forward/to.jsp (행: [1], 열: [2]) [Page directive]은(는) 유효하지 않은 속성을 가지고 있습니다: [contentTpye]
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+		at org.apache.jasper.compiler.JspUtil.checkAttributes(JspUtil.java:208)
+		at org.apache.jasper.compiler.Validator$DirectiveVisitor.visit(Validator.java:113)
+		at org.apache.jasper.compiler.Node$PageDirective.accept(Node.java:579)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2441)
+		at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2447)
+		at org.apache.jasper.compiler.Node$Root.accept(Node.java:470)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Validator.validateDirectives(Validator.java:1817)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:203)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:386)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+		at org.apache.jasper.runtime.PageContextImpl.forward(PageContextImpl.java:530)
+		at org.apache.jsp.ch09.from_jsp._jspService(from_jsp.java:124)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 15:21:05.190 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [8]에서 [/ch09/fromNoBuffer.jsp]을(를) 처리하는 중 예외 발생
+
+5: 
+6:     <body>
+7:         �씠 �럹�씠吏��뒗 from.jsp媛� �깮�꽦�븳 寃껋엯�땲�떎.
+8:         <jsp:forward page="/ch09/forward/to.jsp" />
+9:     </body>
+10: </html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalStateException: 버퍼 크기가 0일 때 clear()를 호출하는 것은 불허됩니다.
+		at org.apache.jasper.runtime.JspWriterImpl.clear(JspWriterImpl.java:127)
+		at org.apache.jasper.runtime.PageContextImpl.forward(PageContextImpl.java:510)
+		at org.apache.jsp.ch09.fromNoBuffer_jsp._jspService(fromNoBuffer_jsp.java:125)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 15:22:32.792 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [10]에서 [/ch09/fromNoBuffer.jsp]을(를) 처리하는 중 예외 발생
+
+7: 
+8:     <body>
+9:         from.jsp媛� �깮�꽦�븳 �궡�슜
+10:         <jsp:forward page="/ch09/forward/to.jsp" />
+11:     </body>
+12: </html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalStateException: 버퍼 크기가 0일 때 clear()를 호출하는 것은 불허됩니다.
+		at org.apache.jasper.runtime.JspWriterImpl.clear(JspWriterImpl.java:127)
+		at org.apache.jasper.runtime.PageContextImpl.forward(PageContextImpl.java:510)
+		at org.apache.jsp.ch09.fromNoBuffer_jsp._jspService(fromNoBuffer_jsp.java:127)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 15:24:29.352 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [10]에서 [/ch09/fromNoBuffer.jsp]을(를) 처리하는 중 예외 발생
+
+7: 
+8:     <body>
+9:         from.jsp媛� �깮�꽦�븳 �궡�슜
+10:         <jsp:forward page="/ch09/forward/to.jsp" />
+11:     </body>
+12: </html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalStateException: 버퍼 크기가 0일 때 clear()를 호출하는 것은 불허됩니다.
+		at org.apache.jasper.runtime.JspWriterImpl.clear(JspWriterImpl.java:127)
+		at org.apache.jasper.runtime.PageContextImpl.forward(PageContextImpl.java:510)
+		at org.apache.jsp.ch09.fromNoBuffer_jsp._jspService(fromNoBuffer_jsp.java:127)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 15:44:00.935 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [/ch09/paramFrom.jsp (행: [9], 열: [35]) [value]을(를) 위한 속성 값이 올바르게 종료되지 않았습니다.]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: /ch09/paramFrom.jsp (행: [9], 열: [35]) [value]을(를) 위한 속성 값이 올바르게 종료되지 않았습니다.
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+		at org.apache.jasper.compiler.Parser.parseAttributeValue(Parser.java:285)
+		at org.apache.jasper.compiler.Parser.parseAttribute(Parser.java:247)
+		at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:168)
+		at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:159)
+		at org.apache.jasper.compiler.Parser.parseParam(Parser.java:841)
+		at org.apache.jasper.compiler.Parser.parseBody(Parser.java:1691)
+		at org.apache.jasper.compiler.Parser.parseOptionalBody(Parser.java:1016)
+		at org.apache.jasper.compiler.Parser.parseForward(Parser.java:880)
+		at org.apache.jasper.compiler.Parser.parseStandardAction(Parser.java:1132)
+		at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1469)
+		at org.apache.jasper.compiler.Parser.parse(Parser.java:144)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+		at org.apache.jasper.compiler.ParserController.parse(ParserController.java:105)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:206)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:386)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 15:44:41.231 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert ")" to complete MethodInvocation
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+p1 cannot be resolved to a variable
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error on token "%=", @ expected
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert "?" to complete Wildcard
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert ", TypeArgument1" to complete TypeArgumentList1
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert ")" to complete MethodInvocation
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "%=", @ expected
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert "?" to complete Wildcard
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert ", TypeArgument1" to complete TypeArgumentList1
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+		at org.apache.jasper.runtime.PageContextImpl.forward(PageContextImpl.java:530)
+		at org.apache.jsp.ch09.paramFrom_jsp._jspService(paramFrom_jsp.java:125)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 15:44:41.232 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert ")" to complete MethodInvocation
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+p1 cannot be resolved to a variable
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error on token "%=", @ expected
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert "?" to complete Wildcard
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert ", TypeArgument1" to complete TypeArgumentList1
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert ")" to complete MethodInvocation
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "%=", @ expected
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert "?" to complete Wildcard
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert ", TypeArgument1" to complete TypeArgumentList1
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert ")" to complete MethodInvocation
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+p1 cannot be resolved to a variable
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error on token "%=", @ expected
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert "?" to complete Wildcard
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert ", TypeArgument1" to complete TypeArgumentList1
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [7] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+4:     <head><title>paramTo</title></head>
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert ")" to complete MethodInvocation
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert ";" to complete Statement
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error on token "%=", @ expected
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert "?" to complete Wildcard
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert ", TypeArgument1" to complete TypeArgumentList1
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+JSP 파일 [/ch09/forward/paramTo.jsp]의 [8] 행에서 오류가 발생했습니다.
+Syntax error, insert "super ( ) ;" to complete Statement
+5: 
+6:     <body>
+7:         <%= p1 �뙆�씪誘명꽣 : <%= request.getParameter("p1") %>
+8:         <%= p2 �뙆�씪誘명꽣 : <%= request.getParameter("p2") %>
+9:     </body>
+10: </html>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+		at org.apache.jasper.runtime.PageContextImpl.forward(PageContextImpl.java:530)
+		at org.apache.jsp.ch09.paramFrom_jsp._jspService(paramFrom_jsp.java:125)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 16:05:48.917 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	org.apache.jasper.JasperException: /ch09/forward/timeTo.jsp (행: [2], 열: [19]) 인용부호가 요구됩니다.
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+		at org.apache.jasper.compiler.Parser.parseAttribute(Parser.java:237)
+		at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:168)
+		at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:196)
+		at org.apache.jasper.compiler.ParserController.getPageEncodingForJspSyntax(ParserController.java:459)
+		at org.apache.jasper.compiler.ParserController.determineSyntaxAndEncoding(ParserController.java:401)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:200)
+		at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:386)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+		at org.apache.jasper.runtime.PageContextImpl.forward(PageContextImpl.java:530)
+		at org.apache.jsp.ch09.timeFrom_jsp._jspService(timeFrom_jsp.java:129)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 16:05:48.917 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [/ch09/forward/timeTo.jsp (행: [2], 열: [19]) 인용부호가 요구됩니다.]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: /ch09/forward/timeTo.jsp (행: [2], 열: [19]) 인용부호가 요구됩니다.
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+		at org.apache.jasper.compiler.Parser.parseAttribute(Parser.java:237)
+		at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:168)
+		at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:196)
+		at org.apache.jasper.compiler.ParserController.getPageEncodingForJspSyntax(ParserController.java:459)
+		at org.apache.jasper.compiler.ParserController.determineSyntaxAndEncoding(ParserController.java:401)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:200)
+		at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:386)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+		at org.apache.jasper.runtime.PageContextImpl.forward(PageContextImpl.java:530)
+		at org.apache.jsp.ch09.timeFrom_jsp._jspService(timeFrom_jsp.java:129)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 16:12:28.447 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/ch09/receiveParam.jsp]의 [7] 행에서 오류가 발생했습니다.
+The method getPrameter(String) is undefined for the type HttpServletRequest
+4:     <head><title>�뙆�씪誘명꽣 異쒕젰</title></head>
+5: 
+6:     <body>
+7:         �쟾�떖諛쏆� �젙�닔 : <%= request.getPrameter("num") %>
+8:     </body>
+9: </html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/ch09/receiveParam.jsp]의 [7] 행에서 오류가 발생했습니다.
+The method getPrameter(String) is undefined for the type HttpServletRequest
+4:     <head><title>�뙆�씪誘명꽣 異쒕젰</title></head>
+5: 
+6:     <body>
+7:         �쟾�떖諛쏆� �젙�닔 : <%= request.getPrameter("num") %>
+8:     </body>
+9: </html>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:05.521 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:05.522 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:24.429 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:24.429 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:25.371 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:25.371 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:25.984 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:25.984 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:26.163 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:26.163 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:26.350 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:26.350 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:26.514 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 17:10:26.515 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:08:54.007 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Oct-2020 19:08:54.007 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Oct-2020 19:08:54.009 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@72f46e16')
+17-Oct-2020 19:09:08.571 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:09:08.571 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:10:14.053 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:10:14.055 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:14:29.459 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:14:29.460 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:14:30.247 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:14:30.247 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:17:50.517 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:17:50.518 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:18:45.444 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:18:45.444 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:18:46.517 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:18:46.518 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:18:56.824 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/ch09/index.jsp]의 [4] 행에서 오류가 발생했습니다.
+Syntax error on token "jsp", delete this token
+1: <%@ page contentType="text/html;charset=utf-8" %>
+2: 
+3: <%
+4:     String targetPage=request.getParameter("target") + 2.jsp;
+5: %>
+6: 
+7: 
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/ch09/index.jsp]의 [4] 행에서 오류가 발생했습니다.
+Syntax error on token "jsp", delete this token
+1: <%@ page contentType="text/html;charset=utf-8" %>
+2: 
+3: <%
+4:     String targetPage=request.getParameter("target") + 2.jsp;
+5: %>
+6: 
+7: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:19:16.931 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:19:16.932 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:22:55.675 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationDispatcher.invoke 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이 예외를 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+17-Oct-2020 19:22:55.677 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.]을(를) 발생시켰습니다.
+	javax.servlet.ServletException: 파일 [&#47;ch09&#47;null2.jsp]을(를) 찾을 수 없습니다.
+		at org.apache.jasper.servlet.JspServlet.handleMissingResource(JspServlet.java:406)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:374)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+		at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+		at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+		at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+		at org.apache.jsp.ch09.index_jsp._jspService(index_jsp.java:141)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)

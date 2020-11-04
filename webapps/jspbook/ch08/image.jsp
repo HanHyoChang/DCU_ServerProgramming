@@ -1,7 +1,7 @@
 <%@ page import="java.io.*" %>
 <%
     try {
-        response.setContentType("image/jepg");
+        response.setContentType("image/jpg");
         response.addHeader("Content-Transfer-Encoding", "binary");
         String filename = application.getRealPath("/") + "ch08\\images\\jsp.jpg";
         FileInputStream fis = new FileInputStream(filename);

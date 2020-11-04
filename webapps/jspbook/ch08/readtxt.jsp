@@ -1,4 +1,4 @@
-<%@ page contentType="text/plain;charset=utf-8" %>
+<%@ page contentType="text/html;charset=utf-8" %>
 <%@ page import="java.io.*" %>
 
 <html>
@@ -8,12 +8,12 @@
 
     <body>
         <%
-            FileReader fr = null;
+            BufferedReader fr = null;
             char [] buff = new char[512];
             int len = -1;
 
             try {
-                fr = new FileReader(application.getRealPath("/ch08/test.txt"));
+                fr = new BufferedReader(new InputStreamReader(application.getResourceAsStream("/ch08/test.txt"),"utf-8"));
                 while ( (len = fr.read(buff)) != -1) {
                     out.print(new String(buff, 0, len));
                 }
@@ -25,3 +25,5 @@
         %>
     </body>
 </html>
+
+

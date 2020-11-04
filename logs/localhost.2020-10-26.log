@@ -1,0 +1,1071 @@
+26-Oct-2020 19:48:05.881 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Oct-2020 19:48:05.884 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Oct-2020 19:48:05.886 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@72f46e16')
+26-Oct-2020 19:49:28.600 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name", URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:03:59.403 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name", URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:04:00.495 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name", URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:09:23.076 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name", URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:09:24.046 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name", URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:11:09.246 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/ch11/getCookies.jsp]의 [16] 행에서 오류가 발생했습니다.
+The method decode(String) is undefined for the type URLEncoder
+13:                 for (int i=0; i<cookies.length; i++) {
+14:         %>
+15:             
+16:         <%= cookies[i].getName() %> = <%= URLEncoder.decode(cookies[i].getValue()) %> <br/>
+17:         
+18:         <%
+19:                 }
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+JSP 파일 [/ch11/getCookies.jsp]의 [16] 행에서 오류가 발생했습니다.
+The method decode(String) is undefined for the type URLEncoder
+13:                 for (int i=0; i<cookies.length; i++) {
+14:         %>
+15:             
+16:         <%= cookies[i].getName() %> = <%= URLEncoder.decode(cookies[i].getValue()) %> <br/>
+17:         
+18:         <%
+19:                 }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:18:32.563 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:19:18.821 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃","utf-8"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:19:19.886 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃","utf-8"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:21:55.900 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃","utf-8"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:21:56.889 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃","utf-8"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:32:11.692 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃","utf-8"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:32:12.631 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃","utf-8"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:32:13.097 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃","utf-8"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:32:13.363 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃","utf-8"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:32:13.595 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃","utf-8"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:32:13.829 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃","utf-8"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:32:14.046 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃","utf-8"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:45:28.752 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [9]에서 [/ch11/createCookies.jsp]을(를) 처리하는 중 예외 발생
+
+6:     Cookie cookie = new Cookie("name",URLEncoder.encode("jspbook 荑좏궎 �뀒�뒪�듃","utf-8"));
+7:     Cookie cookie2 = new Cookie("date", new Date().toString());
+8:     response.addCookie(cookie);
+9:     response.addCookie(cookie2);
+10: %>
+11: 
+12: <html>
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.createCookies_jsp._jspService(createCookies_jsp.java:128)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 20:59:26.800 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [행 [8]에서 [/ch11/create1hourCookie.jsp]을(를) 처리하는 중 예외 발생
+
+5: <%
+6:     Cookie cookie = new Cookie("cookieTime","1 hour");
+7:     cookie.setMaxAge(60 * 60);
+8:     response.addCookie(cookie);
+9:   
+10: %>
+11: 
+
+
+Stacktrace:]을(를) 발생시켰습니다.
+	java.lang.IllegalArgumentException: 쿠키 값에 유효하지 않은 문자 [32]이(가) 있습니다.
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.validateCookieValue(Rfc6265CookieProcessor.java:197)
+		at org.apache.tomcat.util.http.Rfc6265CookieProcessor.generateHeader(Rfc6265CookieProcessor.java:123)
+		at org.apache.catalina.connector.Response.generateCookieString(Response.java:974)
+		at org.apache.catalina.connector.Response.addCookie(Response.java:926)
+		at org.apache.catalina.connector.ResponseFacade.addCookie(ResponseFacade.java:385)
+		at org.apache.jsp.ch11.create1hourCookie_jsp._jspService(create1hourCookie_jsp.java:127)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 21:15:51.525 SEVERE [http-nio-8080-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+코드 생성된 자바 파일 [C:\apache-tomcat-9.0.37\work\Catalina\localhost\jspbook\org\apache\jsp\ch11\login2_jsp.java]의 [166] 행에서 오류가 발생했습니다.
+Syntax error, insert "}" to complete Block
+
+코드 생성된 자바 파일 [C:\apache-tomcat-9.0.37\work\Catalina\localhost\jspbook\org\apache\jsp\ch11\login2_jsp.java]의 [183] 행에서 오류가 발생했습니다.
+Syntax error on token "}", delete this token
+
+코드 생성된 자바 파일 [C:\apache-tomcat-9.0.37\work\Catalina\localhost\jspbook\org\apache\jsp\ch11\login2_jsp.java]의 [184] 행에서 오류가 발생했습니다.
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+코드 생성된 자바 파일 [C:\apache-tomcat-9.0.37\work\Catalina\localhost\jspbook\org\apache\jsp\ch11\login2_jsp.java]의 [166] 행에서 오류가 발생했습니다.
+Syntax error, insert "}" to complete Block
+
+코드 생성된 자바 파일 [C:\apache-tomcat-9.0.37\work\Catalina\localhost\jspbook\org\apache\jsp\ch11\login2_jsp.java]의 [183] 행에서 오류가 발생했습니다.
+Syntax error on token "}", delete this token
+
+코드 생성된 자바 파일 [C:\apache-tomcat-9.0.37\work\Catalina\localhost\jspbook\org\apache\jsp\ch11\login2_jsp.java]의 [184] 행에서 오류가 발생했습니다.
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+26-Oct-2020 21:45:49.098 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke 경로 [/jspbook]의 컨텍스트 내의 서블릿 [jsp]을(를) 위한 Servlet.service() 호출이, 근본 원인(root cause)과 함께, 예외 [JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+코드 생성된 자바 파일 [C:\apache-tomcat-9.0.37\work\Catalina\localhost\jspbook\org\apache\jsp\ch11\login2_jsp.java]의 [166] 행에서 오류가 발생했습니다.
+Syntax error, insert "}" to complete Block
+
+코드 생성된 자바 파일 [C:\apache-tomcat-9.0.37\work\Catalina\localhost\jspbook\org\apache\jsp\ch11\login2_jsp.java]의 [183] 행에서 오류가 발생했습니다.
+Syntax error on token "}", delete this token
+
+코드 생성된 자바 파일 [C:\apache-tomcat-9.0.37\work\Catalina\localhost\jspbook\org\apache\jsp\ch11\login2_jsp.java]의 [184] 행에서 오류가 발생했습니다.
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:]을(를) 발생시켰습니다.
+	org.apache.jasper.JasperException: JSP를 위한 클래스를 컴파일할 수 없습니다.: 
+
+코드 생성된 자바 파일 [C:\apache-tomcat-9.0.37\work\Catalina\localhost\jspbook\org\apache\jsp\ch11\login2_jsp.java]의 [166] 행에서 오류가 발생했습니다.
+Syntax error, insert "}" to complete Block
+
+코드 생성된 자바 파일 [C:\apache-tomcat-9.0.37\work\Catalina\localhost\jspbook\org\apache\jsp\ch11\login2_jsp.java]의 [183] 행에서 오류가 발생했습니다.
+Syntax error on token "}", delete this token
+
+코드 생성된 자바 파일 [C:\apache-tomcat-9.0.37\work\Catalina\localhost\jspbook\org\apache\jsp\ch11\login2_jsp.java]의 [184] 행에서 오류가 발생했습니다.
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:528)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)

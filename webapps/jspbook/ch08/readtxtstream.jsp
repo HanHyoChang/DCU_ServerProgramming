@@ -1,4 +1,4 @@
-<%@ page contentType="text/plain;charset=utf-8" %>
+<%@ page contentType="text/html;charset=utf-8" %>
 <%@ page import="java.io.*" %>
 
 <html>
@@ -13,7 +13,7 @@
             int len = -1;
 
             try {
-                br = new BufferedReader(new InputStreamReader(application.getResourceAsStream("/ch08/test.txt")));
+                br = new BufferedReader(new InputStreamReader(application.getResourceAsStream("/ch08/test.txt"),"utf-8"));
                 while ( (len = br.read(buff)) != -1) {
                     out.print(new String(buff, 0, len));
                 }

@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>중간고사 2번 문제</title>
+    </head>
+    
+    <script type="text/javascript">
+        function doOpenCheck(chk){
+            var obj = document.getElementsByName("Pro");
+            
+            for(var i=0; i<obj.length; i++){
+                if(obj[i] != chk){
+                    obj[i].checked = false;
+                }
+            }
+        }
+
+        function doOpenCheck2(chk2) {
+            var obj2 = document.getElementsByName("stype");
+
+            for(var i=0; i<obj2.length; i++){
+                if(obj2[i] != chk2){
+                    obj2[i].checked = false;
+                }
+            }
+        }
+        
+    </script>
+
+    <body>
+        <form action="form.jsp" method="post" name="textform">
+            <table border=1>
+                <tr>
+                    <td>학과</td>
+                    <td>
+                        <input type="checkbox" name="Pro" value="IT공학부" onclick="doOpenCheck(this);">IT공학부<br/>
+                        <input type="checkbox" name="Pro" value="컴퓨터공학전공" onclick="doOpenCheck(this);">컴퓨터공학전공<br/>
+                        <input type="checkbox" name="Pro" value="정보통신융합공학" onclick="doOpenCheck(this);">정보통신융합공학<br/>
+                        <input type="checkbox" name="Pro" value="정보보호학전공" onclick="doOpenCheck(this);">정보보호학전공<br/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>학년</td>
+                    <td>
+                        <input type="radio" name="Status" value="1학년">1학년
+                        <input type="radio" name="Status" value="2학년">2학년
+                        <input type="radio" name="Status" value="3학년">3학년
+                        <input type="radio" name="Status" value="4학년">4학년
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>유형</td>
+                    <td>
+                        <input type="checkbox" name="stype" value="전선" onclick="doOpenCheck2(this);">전선
+                        <input type="checkbox" name="stype" value="전필" onclick="doOpenCheck2(this);">전필
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>교과목 코드<br/>교과목 이름</td>
+                    <td>
+                        <form action="form.jsp" method="post" name="textform">
+                            <input type="text" name="code"> <br/>
+                            <input type="text" name="name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>학점</td>
+                    <td>
+                        <input type="radio" name="credit" value="1학점">1학점
+                        <input type="radio" name="credit" value="2학점">2학점
+                        <input type="radio" name="credit" value="3학점">3학점
+                        <input type="radio" name="credit" value="4학점">4학점
+                        <input type="radio" name="credit" value="5학점">5학점
+                        <input type="radio" name="credit" value="6학점">6학점
+                    </td>
+                </tr>
+            </table>
+
+            <p>
+                <input type="submit" value="전송" name="submitbtn">
+                <input type="reset" value="초기화" name="resetbtn">
+        </form>
+    </body>
+</html>

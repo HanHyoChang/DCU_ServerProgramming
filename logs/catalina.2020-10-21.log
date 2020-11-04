@@ -1,0 +1,313 @@
+21-Oct-2020 00:12:55.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.37
+21-Oct-2020 00:12:55.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Jun 30 2020 20:09:49 UTC
+21-Oct-2020 00:12:55.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.37.0
+21-Oct-2020 00:12:55.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Windows 10
+21-Oct-2020 00:12:55.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            10.0
+21-Oct-2020 00:12:55.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+21-Oct-2020 00:12:55.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             C:\Program Files\Java\jdk-14.0.2
+21-Oct-2020 00:12:55.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           14.0.2+12-46
+21-Oct-2020 00:12:55.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Oracle Corporation
+21-Oct-2020 00:12:55.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-9.0.37
+21-Oct-2020 00:12:55.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-9.0.37
+21-Oct-2020 00:12:55.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Oct-2020 00:12:55.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Oct-2020 00:12:55.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2020 00:12:55.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=C:\apache-tomcat-9.0.37\conf\logging.properties
+21-Oct-2020 00:12:55.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2020 00:12:55.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2020 00:12:55.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2020 00:12:55.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+21-Oct-2020 00:12:55.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=C:\apache-tomcat-9.0.37
+21-Oct-2020 00:12:55.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=C:\apache-tomcat-9.0.37
+21-Oct-2020 00:12:55.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=C:\apache-tomcat-9.0.37\temp
+21-Oct-2020 00:12:55.064 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.24]을(를) 로드했습니다.
+21-Oct-2020 00:12:55.064 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true].
+21-Oct-2020 00:12:55.066 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+21-Oct-2020 00:12:55.081 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1g  21 Apr 2020]
+21-Oct-2020 00:12:55.417 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+21-Oct-2020 00:12:55.523 INFO [main] org.apache.catalina.startup.Catalina.load [808] 밀리초 내에 서버가 초기화되었습니다.
+21-Oct-2020 00:12:55.564 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+21-Oct-2020 00:12:55.566 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.37]
+21-Oct-2020 00:12:55.577 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\docs]을(를) 배치합니다.
+21-Oct-2020 00:12:55.811 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 00:12:55.882 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\docs]에 대한 배치가 [302] 밀리초에 완료되었습니다.
+21-Oct-2020 00:12:55.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\examples]을(를) 배치합니다.
+21-Oct-2020 00:12:56.265 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 00:12:56.317 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\examples]에 대한 배치가 [434] 밀리초에 완료되었습니다.
+21-Oct-2020 00:12:56.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\host-manager]을(를) 배치합니다.
+21-Oct-2020 00:12:56.369 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 00:12:56.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\host-manager]에 대한 배치가 [59] 밀리초에 완료되었습니다.
+21-Oct-2020 00:12:56.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\jspbook]을(를) 배치합니다.
+21-Oct-2020 00:12:56.419 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\jspbook]을(를) 배치하는 중 오류 발생
+	java.lang.IllegalStateException: 자식 컨테이너를 시작하는 중 오류 발생
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1866)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:738)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: 구성요소 [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jspbook]]을(를) 시작하지 못했습니다.
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: 파라미터 이름과 파라미터 값, 둘 다 필수적입니다.
+		at org.apache.catalina.core.StandardContext.addParameter(StandardContext.java:3104)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1469)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1377)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+21-Oct-2020 00:12:56.423 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\jspbook]에 대한 배치가 [46] 밀리초에 완료되었습니다.
+21-Oct-2020 00:12:56.426 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\manager]을(를) 배치합니다.
+21-Oct-2020 00:12:56.474 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 00:12:56.478 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\manager]에 대한 배치가 [51] 밀리초에 완료되었습니다.
+21-Oct-2020 00:12:56.478 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\ROOT]을(를) 배치합니다.
+21-Oct-2020 00:12:56.518 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 00:12:56.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\ROOT]에 대한 배치가 [42] 밀리초에 완료되었습니다.
+21-Oct-2020 00:12:56.524 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+21-Oct-2020 00:12:56.534 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1009] 밀리초 내에 시작되었습니다.
+21-Oct-2020 00:13:36.554 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload 컨텍스트 [/jspbook]을(를) 다시 로드합니다.
+21-Oct-2020 00:13:36.639 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload 컨텍스트 [/jspbook]이(가) 다시 시작하는 동안 오류 발생
+	org.apache.catalina.LifecycleException: 구성요소 [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jspbook]]을(를) 시작하지 못했습니다.
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1412)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+	Caused by: java.lang.IllegalArgumentException: 파라미터 이름과 파라미터 값, 둘 다 필수적입니다.
+		at org.apache.catalina.core.StandardContext.addParameter(StandardContext.java:3104)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1469)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1377)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 16 more
+21-Oct-2020 00:15:56.874 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload 컨텍스트 [/jspbook]을(를) 다시 로드합니다.
+21-Oct-2020 00:15:56.935 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 00:16:17.084 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload 컨텍스트 [/jspbook]을(를) 다시 로드합니다.
+21-Oct-2020 00:16:17.084 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 이름이 [/jspbook]인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+21-Oct-2020 00:16:17.127 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 이름이 [/jspbook]인 컨텍스트를 시작하는 중 예외 발생
+	org.apache.catalina.LifecycleException: 구성요소 [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jspbook]]을(를) 시작하지 못했습니다.
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3754)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1403)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+	Caused by: java.lang.IllegalArgumentException: 파라미터 이름과 파라미터 값, 둘 다 필수적입니다.
+		at org.apache.catalina.core.StandardContext.addParameter(StandardContext.java:3104)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1469)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1377)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+21-Oct-2020 00:16:17.129 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 이름이 [/jspbook]인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+21-Oct-2020 00:16:57.149 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload 컨텍스트 [/jspbook]을(를) 다시 로드합니다.
+21-Oct-2020 00:16:57.208 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 00:17:17.229 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload 컨텍스트 [/jspbook]을(를) 다시 로드합니다.
+21-Oct-2020 00:17:17.229 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 이름이 [/jspbook]인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+21-Oct-2020 00:17:17.295 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 이름이 [/jspbook]인 컨텍스트를 시작하는 중 예외 발생
+	org.apache.catalina.LifecycleException: 구성요소 [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jspbook]]을(를) 시작하지 못했습니다.
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3754)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1403)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+	Caused by: java.lang.IllegalArgumentException: 파라미터 이름과 파라미터 값, 둘 다 필수적입니다.
+		at org.apache.catalina.core.StandardContext.addParameter(StandardContext.java:3104)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1469)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1377)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:983)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:302)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5044)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+21-Oct-2020 00:17:17.303 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload 이름이 [/jspbook]인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+21-Oct-2020 00:20:07.389 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload 컨텍스트 [/jspbook]을(를) 다시 로드합니다.
+21-Oct-2020 00:20:07.438 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 00:26:27.840 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload 컨텍스트 [/jspbook]을(를) 다시 로드합니다.
+21-Oct-2020 00:26:27.840 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 이름이 [/jspbook]인 컨텍스트를 다시 로드하는 작업이 시작되었습니다.
+21-Oct-2020 00:26:27.886 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 00:26:27.891 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 이름이 [/jspbook]인 컨텍스트를 다시 로드하는 것을 완료했습니다.
+21-Oct-2020 12:57:22.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.37
+21-Oct-2020 12:57:22.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Jun 30 2020 20:09:49 UTC
+21-Oct-2020 12:57:22.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.37.0
+21-Oct-2020 12:57:22.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Windows 10
+21-Oct-2020 12:57:22.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            10.0
+21-Oct-2020 12:57:22.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+21-Oct-2020 12:57:22.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             C:\Program Files\Java\jdk-14.0.2
+21-Oct-2020 12:57:22.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           14.0.2+12-46
+21-Oct-2020 12:57:22.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Oracle Corporation
+21-Oct-2020 12:57:22.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-9.0.37
+21-Oct-2020 12:57:22.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-9.0.37
+21-Oct-2020 12:57:22.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Oct-2020 12:57:22.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Oct-2020 12:57:22.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2020 12:57:22.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=C:\apache-tomcat-9.0.37\conf\logging.properties
+21-Oct-2020 12:57:22.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2020 12:57:22.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2020 12:57:22.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2020 12:57:22.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+21-Oct-2020 12:57:22.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=C:\apache-tomcat-9.0.37
+21-Oct-2020 12:57:22.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=C:\apache-tomcat-9.0.37
+21-Oct-2020 12:57:22.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=C:\apache-tomcat-9.0.37\temp
+21-Oct-2020 12:57:22.494 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.24]을(를) 로드했습니다.
+21-Oct-2020 12:57:22.495 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true].
+21-Oct-2020 12:57:22.495 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+21-Oct-2020 12:57:22.500 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1g  21 Apr 2020]
+21-Oct-2020 12:57:22.778 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+21-Oct-2020 12:57:22.871 INFO [main] org.apache.catalina.startup.Catalina.load [640] 밀리초 내에 서버가 초기화되었습니다.
+21-Oct-2020 12:57:22.918 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+21-Oct-2020 12:57:22.918 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.37]
+21-Oct-2020 12:57:22.930 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\docs]을(를) 배치합니다.
+21-Oct-2020 12:57:23.175 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 12:57:23.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\docs]에 대한 배치가 [321] 밀리초에 완료되었습니다.
+21-Oct-2020 12:57:23.255 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\examples]을(를) 배치합니다.
+21-Oct-2020 12:57:23.621 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 12:57:23.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\examples]에 대한 배치가 [423] 밀리초에 완료되었습니다.
+21-Oct-2020 12:57:23.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\host-manager]을(를) 배치합니다.
+21-Oct-2020 12:57:23.730 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 12:57:23.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\host-manager]에 대한 배치가 [53] 밀리초에 완료되었습니다.
+21-Oct-2020 12:57:23.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\jspbook]을(를) 배치합니다.
+21-Oct-2020 12:57:23.783 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 12:57:23.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\jspbook]에 대한 배치가 [170] 밀리초에 완료되었습니다.
+21-Oct-2020 12:57:23.904 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\manager]을(를) 배치합니다.
+21-Oct-2020 12:57:23.950 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 12:57:23.955 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\manager]에 대한 배치가 [50] 밀리초에 완료되었습니다.
+21-Oct-2020 12:57:23.955 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\ROOT]을(를) 배치합니다.
+21-Oct-2020 12:57:23.983 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 12:57:23.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\ROOT]에 대한 배치가 [28] 밀리초에 완료되었습니다.
+21-Oct-2020 12:57:24.005 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+21-Oct-2020 12:57:24.016 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1142] 밀리초 내에 시작되었습니다.
+21-Oct-2020 14:19:16.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.37
+21-Oct-2020 14:19:16.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Jun 30 2020 20:09:49 UTC
+21-Oct-2020 14:19:16.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.37.0
+21-Oct-2020 14:19:16.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Windows 10
+21-Oct-2020 14:19:16.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            10.0
+21-Oct-2020 14:19:16.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+21-Oct-2020 14:19:16.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             C:\Program Files\Java\jdk-14.0.2
+21-Oct-2020 14:19:16.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           14.0.2+12-46
+21-Oct-2020 14:19:16.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Oracle Corporation
+21-Oct-2020 14:19:16.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-9.0.37
+21-Oct-2020 14:19:16.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-9.0.37
+21-Oct-2020 14:19:16.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Oct-2020 14:19:16.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Oct-2020 14:19:16.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2020 14:19:16.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=C:\apache-tomcat-9.0.37\conf\logging.properties
+21-Oct-2020 14:19:16.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2020 14:19:16.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2020 14:19:16.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2020 14:19:16.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+21-Oct-2020 14:19:16.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=C:\apache-tomcat-9.0.37
+21-Oct-2020 14:19:16.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=C:\apache-tomcat-9.0.37
+21-Oct-2020 14:19:16.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=C:\apache-tomcat-9.0.37\temp
+21-Oct-2020 14:19:16.388 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 버전 [1.7.0]을(를) 사용한, APR 기반 Apache Tomcat Native 라이브러리 [1.2.24]을(를) 로드했습니다.
+21-Oct-2020 14:19:16.390 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR 용량정보들: IPv6 [true], sendfile [true], accept filters [false], random [true].
+21-Oct-2020 14:19:16.391 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL 설정: useAprConnector [false], useOpenSSL [true]
+21-Oct-2020 14:19:16.395 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL이 성공적으로 초기화되었습니다: [OpenSSL 1.1.1g  21 Apr 2020]
+21-Oct-2020 14:19:16.639 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+21-Oct-2020 14:19:16.705 INFO [main] org.apache.catalina.startup.Catalina.load [587] 밀리초 내에 서버가 초기화되었습니다.
+21-Oct-2020 14:19:16.752 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+21-Oct-2020 14:19:16.754 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.37]
+21-Oct-2020 14:19:16.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\docs]을(를) 배치합니다.
+21-Oct-2020 14:19:16.978 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 14:19:17.039 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\docs]에 대한 배치가 [276] 밀리초에 완료되었습니다.
+21-Oct-2020 14:19:17.039 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\examples]을(를) 배치합니다.
+21-Oct-2020 14:19:17.381 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 14:19:17.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\examples]에 대한 배치가 [396] 밀리초에 완료되었습니다.
+21-Oct-2020 14:19:17.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\host-manager]을(를) 배치합니다.
+21-Oct-2020 14:19:17.482 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 14:19:17.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\host-manager]에 대한 배치가 [53] 밀리초에 완료되었습니다.
+21-Oct-2020 14:19:17.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\jspbook]을(를) 배치합니다.
+21-Oct-2020 14:19:17.540 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 14:19:17.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\jspbook]에 대한 배치가 [135] 밀리초에 완료되었습니다.
+21-Oct-2020 14:19:17.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\manager]을(를) 배치합니다.
+21-Oct-2020 14:19:17.668 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 14:19:17.672 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\manager]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+21-Oct-2020 14:19:17.673 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\ROOT]을(를) 배치합니다.
+21-Oct-2020 14:19:17.710 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+21-Oct-2020 14:19:17.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\apache-tomcat-9.0.37\webapps\ROOT]에 대한 배치가 [41] 밀리초에 완료되었습니다.
+21-Oct-2020 14:19:17.718 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8080"]을(를) 시작합니다.
+21-Oct-2020 14:19:17.722 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [1010] 밀리초 내에 시작되었습니다.

@@ -18,9 +18,9 @@
                     br = new BufferedReader(new FileReader(realReadPath));
                     count = br.readLine().trim();
                     br.close();
-                    
-                    session.setMaxInactiveInterval(2);
 
+                    session.setMaxInactiveInterval(2);
+                    
                     if(session.isNew()) {
                         pr = new PrintWriter (new FileWriter(realWritePath));
                         int num = Integer.parseInt(count);
