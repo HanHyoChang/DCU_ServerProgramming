@@ -13,7 +13,7 @@
 
     <body>
         로그인에 성공했습니다. <br/><br/>
-        <a href="loginCheck.jsp">로그인 체크</a>
+        <a href="loginCheck2.jsp">로그인 체크</a>
     </body>
 </html>
 <%

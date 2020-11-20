@@ -58,7 +58,7 @@
         <param-value>112233</param-value>
     </context-param>
     
-    
+    <!-- Chapter10 404, 500 error페이지 삽입부
     <error-page>
         <error-code>404</error-code>
         <location>/ch10/error/404errorHandler.jsp</location>
@@ -73,8 +73,9 @@
         <exception-type>java.lang.NullPointerException</exception-type>
         <location>/ch10/error/nullPointerErrorHandler.jsp</location>
     </error-page>
+    -->
     
-    <!-- Chapter10 404, 500 error페이지 삽입부 -->
+    
     
 
 </web-app>
